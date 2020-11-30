@@ -1,2 +1,2 @@
 # amplify-js-issues-repro
-Reproduction samples for amplify-js issues
+This repository contains samples to reproduce customer issues in `amplify-js` library.
