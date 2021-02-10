@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "7626federatedbuttonsef89d5b0": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

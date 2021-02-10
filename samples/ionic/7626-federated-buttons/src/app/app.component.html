@@ -1,0 +1,13 @@
+<amplify-authenticator usernameAlias="email">
+	<amplify-sign-in id="auth" usernameAlias="email" slot="sign-in">
+		<amplify-sign-in-button
+			slot="federated-buttons"
+			(click)="federatedSignIn()"
+		>
+			This is the custom text
+		</amplify-sign-in-button>
+	</amplify-sign-in>
+	<ion-app>
+		<ion-router-outlet></ion-router-outlet>
+	</ion-app>
+</amplify-authenticator>
